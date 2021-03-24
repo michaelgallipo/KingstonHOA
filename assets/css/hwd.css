@@ -26,3 +26,32 @@
 	background-size: cover;
 	text-align: center;
 }
+
+.topnavbar {
+	float: left;
+	color: #f2f2f2;
+	text-align: justify;
+	/* padding: 14px 16px; */
+	text-decoration: none;
+	font-size: 17px;
+	width: 50em;
+}
+
+.topnavlink {
+	padding: 0% 5%;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.topnavlink.active {
+	color: aqua;
+}
+
+.topnavlink:hover {
+	font-weight: bold;
+}
+
+.image.landingpic {
+	margin: 5px;
+	margin-top: 30px;
+}
